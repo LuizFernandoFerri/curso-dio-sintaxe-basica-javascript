@@ -427,5 +427,7 @@
       </details>
    </li>
 </ul>
+<br>
+ <h1 style="text-align: center">Certificado de Conclusão</h1>
 <img src="Certificado.PNG" alt="certificado de conclusão">
 <br>
