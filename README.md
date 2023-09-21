@@ -427,5 +427,5 @@
       </details>
    </li>
 </ul>
-<a href="Certificado.PNG">Certificado de Conclusão</a>
+<img src="Certificado.PNG" alt="certificado de conclusão">
 <br>
