@@ -1,0 +1,17 @@
+*{
+    font-family:  Georgia, serif;
+    background-color: #E3FAE1;
+}
+h1,h2{
+  color: #326145; 
+  text-transform: uppercase;
+
+}
+p{
+    font-size: 20px;
+    font-weight: 530;
+}
+
+.bold {
+  font-weight: bold;
+}

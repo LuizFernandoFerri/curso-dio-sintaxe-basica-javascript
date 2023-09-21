@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Objetivos</h1>
+
+<p>
+    1. Como funciona a tipagem em JS?; <br>
+    2. O que são variáveis e como declarar; <br>
+    3. Diferenças entre atribuição, comparação e comparação 
+    idêntica; <br>
+    4. Operadores aritméticos, relacionais e lógicos.
+</p>
+<hr>
+
+<h1>Como funciona a tipagem em JS</h1>
+<h2>Tipagem?</h2>
+<p>
+    A tipagem funciona como uma regra de uso de dados, quanto
+    mais forte for a tipagem, mais obrigatório é a declaração do tipo
+    de dado. A tipagem em JavaScript é fraca, a declaração dos dados acontece
+    de modo dinâmico.
+    <br>
+    Ex.: Ao criarmos uma variável com valor entre aspas (“valor”) o
+    JavaScript já converte o dado para o tipo String.
+</p>
+<h2>Tipagem</h2> 
+<p>
+Ex.: var numero = 1;
+// o JavaScript já converte o valor 1 para o tipo Number.
+</p> <hr>
+
+<h1>Declaração de variáveis</h1>
+<h2>Tipos primitivos</h2>
+<p>As variáveis em JavaScript podem guardar tipos de dados que
+    chamamos de tipos primitivos
+    
+    Variáveis podem guardar valores dos tipos: Boolean; null;
+    undefined; Number; String; Array; Object; Function.</p> 
+ <hr>
+<h1>O que são variáveis?</h1>
+<p>
+Imagina uma caixa, tu pode colocar quase qualquer coisa dentro dela, pode ser uma lista de nomes, cartões com números, objetosno geral... <br>
+Variáveis funcionam dessa forma Como uma caixa que guarda valores</p> 
+<h2>Declaração de variáveis</h2>
+<p>
+    Existem 3 modos de declarar as variáveis em JavaScript: <br>
+    <span class="bold">var</span> – escopo global e local, pode ter seu valor alterado, se não
+    tiver um valor inicial será tratada como null; <br>
+    <span class="bold">let</span> – escopo local de bloco, pode ter seu valor alterado, se não
+    tiver um valor inicial será tratada como null; <br>
+   <span class="bold">const</span> – escopo local de bloco, somente leitura, o valor inicial é
+    obrigatório e não pode ser alterado.</p>
+<hr>
+<h1>Escopo</h1>
+
+<p>
+ O escopo em JavaScript define a limitação e visibilidade de um  bloco de código. <br>
+  <span class="bold">Escopo global –</span>  quando a variável é declarada fora de qualquer
+    bloco, sua visibilidade fica disponível em todo o código. <br>
+    <span class="bold" >Escopo local –</span>  quando a variável é declarada dentro de um bloco,
+    sua visibilidade pode ficar disponível ou não.
+</p> <hr>
+<h1>Regras de Uso de Variáveis</h1>
+<p>
+• Iniciar com letras, underscore _ ou cifrão $; Não iniciar com número. Ex.: <span class="bold">var 1nome</span> ❌ <br>  <span class="bold">var nome || var _nome ✔</span> <br><br>
+• Não usar espaços (use o camelCase ou _); 
+Ex.: <span class="bold">var nome completo ❌ <br></span> <span class="bold">var nomeCompleto || var nome_completo ✔<br></span>  <br>
+
+• Não usar palavras reservadas; Ex.: <span class="bold"> var function ❌</span> <br>
+<br>
+• Declarar variáveis no topo do bloco de código.
+</p>
+
+<hr>
+<h1>Diferenças entre atribuição, comparação e comparação idêntica</h1>
+
+<h2>Atribuição</h2>
+<p>
+ O sinal de igualdade “=“ em JavaScript, significa atribuição. <br>
+Ex.: <br>
+    como declarar: var nome = “meu nome”;
+    como ler: variável nome recebe o valor meunome;</p>
+
+ <h2>Comparação</h2>   
+ <p>Para fazermos uma comparação de valores em JavaScript usamos <br>
+    “==“.
+    <br>
+    <Ex class=":br"></Ex>
+    como declarar: "0" == 0; ;<br>
+    como ler: “0” tem o valor igual a 0? <br>
+    // nesse caso retorna true</p>
+
+    <h2>Comparação idêntica</h2>
+    <p>Para fazermos uma comparação de valores e tipos em JavaScript usamos “===“. <br>
+        Ex.: <br>
+        como declarar: "0" === 0; ; <br>
+        como ler: “0” tem o valor e o tipo idêntico a 0? 
+        <br>
+        // nesse caso retorna false</p>
+        <hr>
+
+ <h1>Operadores aritméticos,  relacionais e lógicos</h1>
+ <h2>Operadores aritméticos</h2>
+ <p>São tipos de operadores matemáticos com valor numérico: <br> <br>
+    <span class="bold">
+        • + adição; <br>
+        • - subtração; <br>
+        • * multiplicação;<br>
+        • / divisão real; <br>
+        • % divisão inteira; <br>
+        • ** potenciação;
+    </span></p>
+
+    <h2>Operadores relacionais</h2>
+ <p>São tipos de operadores que consultam a relação entre valores: <br> <br>
+    <span class="bold">
+        • > maior que; <br>
+        • < menor que; <br>
+        • >= maior ou igual a; <br>
+        • <= menor ou igual a;
+    </span></p>
+
+    <h2>Operadores lógicos</h2>
+    <p>São tipos de operadores que consultam valores lógicos: <br> <br>
+       <span class="bold">
+        • && - “e” – considera que todos os valores sejam true; <br>
+        • || - “ou” – considera que qualquer valor seja true; <br>
+        • ! - “não” – inverte o valor de true para false ou vice-versa;
+       </span></p>
+    <script src="script.js"></script>
+</body>
+</html>

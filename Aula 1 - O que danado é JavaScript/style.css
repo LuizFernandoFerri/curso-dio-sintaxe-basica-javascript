@@ -1,0 +1,13 @@
+body{
+    font-family:  Georgia, serif;
+    background-color: #E3FAE1;
+}
+h1,h2{
+  color: #326145; 
+  text-transform: uppercase;
+
+}
+p , ul{
+    font-size: 18px;
+    font-weight: 530;
+}
